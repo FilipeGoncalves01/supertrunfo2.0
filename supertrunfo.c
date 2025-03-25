@@ -195,7 +195,7 @@ resultado= populacao1 > populacao2 ? 1: 0;
     break;
     case 12:
     printf("você escolheu densidade populacional: %s\n", cidade2);
-    resultado= densid2 > densid1? 1:0;
+    resultado= densid2 < densid1? 1:0;
 default:
 printf("opção invalida\n");
     break;
@@ -273,7 +273,7 @@ if (opcao == opcao2)
             break;
             case 12:
             printf("você escolheu densidade populacional: %s\n", cidade2);
-            resultado2= densid2 > densid1? 1:0;
+            resultado2= densid2 < densid1? 1:0;
         default:
         printf("opção invalida\n");
             break;
